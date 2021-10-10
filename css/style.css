@@ -53,6 +53,10 @@ section {
     background-color: #E1E5EA;
 }
 
+ul {
+    margin: 4em 0;
+}
+
 .container {
     max-width: 880px;
     margin: 0 auto;
@@ -108,6 +112,15 @@ section {
     line-height: 2;
 }
 
+.grad-row {
+    margin: 6.25em auto 6.25em auto;
+}
+
+.grad-row ul {
+    text-align: left;
+    line-height: 2;
+}
+
 .computer {
     width: 25%;
     float: left;
@@ -117,7 +130,10 @@ section {
 .chillies {
     width: 25%;
     float: right;
-    margin: 0 1.875em;
+}
+
+.grad {
+    width: 50%;
 }
 
 .bottom-container {
