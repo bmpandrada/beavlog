@@ -1,0 +1,168 @@
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #E1E5EA;
+}
+
+a {
+    text-decoration: none;
+    color: #11999E;
+    width: 50%;
+    margin: 0.625em 1.25em;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+h1 {
+    color: #A7BBC7;
+    font-size: 5.62em;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    color: #DA7F8F;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.9em;
+    font-weight: 600;
+}
+
+h3 {
+    color: #A7BBC7;
+}
+
+h4 {
+    color: #A7BBC7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+hr {
+    border-top: .6em dotted gray;
+    width: 4%;
+    margin: 6.25em auto;
+}
+
+section {
+    padding: 3% 15%;
+}
+
+.top-container {
+    background-color: #FAF3F3;
+    position: relative;
+    justify-content: center;
+    padding: 1em 1em 0;
+    text-align: center;
+}
+
+.top-container .mountain {
+    width: 50%;
+}
+
+.mountain {
+    width: auto;
+}
+
+.web {
+    text-decoration: 0.1em underline #E1E5EA;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 1.5625em;
+    width: 20%;
+}
+
+.cloud1 {
+    position: absolute;
+    right: 1.5625em;
+    top: 1em;
+    width: 20%;
+}
+
+.middle-container {}
+
+.middle-container .profile {
+    margin: 6.25em auto 6.25em auto;
+    line-height: 2;
+}
+
+.middle-container .profile img {
+    border-radius: 100%;
+    width: 40%;
+}
+
+.skill-row {
+    margin: 6.25em auto 6.25em auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.computer {
+    width: 25%;
+    float: left;
+    margin: 0 1.875em;
+}
+
+.chillies {
+    width: 25%;
+    float: right;
+    margin: 0 1.875em;
+}
+
+.bottom-container {
+    background-color: lightblue;
+    position: relative;
+    justify-content: center;
+    padding: 4em 1em 0;
+    text-align: center;
+}
+
+.contact-message {
+    margin: 3.75em auto;
+    line-height: 2;
+}
+
+.contact-me {
+    padding: 5em 0;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #1199e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #1199e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #1199e);
+    background-image: -o-linear-gradient(top, #11cdd4, #1199e);
+    background-image: linear-gradient(to bottom, #11cdd4, #1199e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.copywrite {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 1.25em 0;
+    Width: 100%;
+}
