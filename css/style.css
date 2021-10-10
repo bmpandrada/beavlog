@@ -1,114 +1,198 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&family=Sacramento&display=swap" rel="stylesheet">
-    <title>♚Bruce' folio.</title>
-</head>
+a {
+    text-decoration: none;
+    color: #DA7F8F;
+    width: 50%;
+    margin: 0.625em 1.25em;
+}
 
-<body>
-    <div class="container">
+a:hover {
+    color: #EAF6F6;
+}
 
-        <section class="top-container">
-            <div class="container-box">
-                <img class="cloud1" src="images/cloud1.png" alt="cloud">
-                <h1>I'm Bea.</h1>
-                <h2>a <span class="web">Industrial </span>Engineering.</h2>
-                <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
-                <img class="mountain" src="images/mountain.png" alt="mountain">
+h1 {
+    color: #A7BBC7;
+    font-size: 5.62em;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+}
 
-            </div>
-        </section>
+h2 {
+    color: #DA7F8F;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.9em;
+    font-weight: 600;
+}
 
+h3 {
+    color: #DA7F8F;
+}
 
-        <section>
-            <div class="middle-container">
+h4 {
+    color: #A7BBC7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-weight: 400;
+}
 
-                <div class="profile">
-                    <img src="images/ako.jpg" alt="person with red shirt">
-                    <h2>Hello.</h2>
-                    <p class="intro">I am Line Lead Trainer at Philip Morris International. I ❤ coffee and foods.</p>
-                </div>
-                <hr>
-                <div class="skills">
-                    <h2>Experience.</h2>
-                    <div class="skill-row">
-                        <img class="computer" src="images/computer.png" alt="computer">
-                        <h3>Line Lead/Line Lead Trainer</h3>
+hr {
+    border-top: .6em dotted gray;
+    width: 4%;
+    margin: 6.25em auto;
+}
 
-                        <ul>
-                            <h4> Owner of model link-up/line in Marikina Manufacturing Plant.</h4>
-                            <li> Responsible for developing the capability of 35 direct reports through regular and on-floor coaching.</li>
-                            <li> Drives business results through daily, weekly, monthly action planning to improve MTBF, #stops, Process Reliability.</li>
-                            <li> Leads the team in reduction and elimination of sources of contamination (SOC) and hard to reach (HTR) areas through implementation of Autonomous Maintenance (AM).</li>
-                            <li> Establish equipment based condition through creation of Lubrication Standards.</li>
-                        </ul>
+section {
+    padding: 3% 15%;
+    background-color: #E1E5EA;
+}
 
-                    </div>
-                    <div class="skill-row">
-                        <img class="chillies" src="images/chillies.png" alt="chilli">
-                        <h3 class="right">Owner/Co-Founder</h3>
-                        <ul>
-                            <h4>Current pastries supplier for Moonleaf Tea Shop, Inc.</h4>
-                            <li>Spearheads and manages end-to-end process, from baking of pastries to delivery of goods to customers - Created and implemented Valentine’s marketing strategies in the past 3 years which lead to achievement of more than an average
-                                month’s sales in just two days. </li>
-                            <li>Conceptualizes and creates publicity materials for product promotions</li>
-                            <li>Manages weekly demand-supply of stocks and monthly financial</li>
-                            reports per branch
-                            <li>Coordinated with school organizations and customers leading to successful sponsorships and events.</li>
-                        </ul>
-                    </div>
-                </div>
-                <hr>
-                <section>
-                    <div>
-                        <h2>Education.</h2>
-                        <div class="grad-row">
-                            <img class="grad" src="images/grad.png" alt="chilli">
-                            <h3>University of the Philippines Diliman.</h3>
+ul {
+    margin: 4em 0;
+}
 
-                            <h4>Degree NameBachelor of Science (BS)Field Of StudyIndustrial Engineering Dates attended or expected graduation 2010 – 2015.</h4>
-                            <ul>
-                                <li>Activities and Societies: UP Industrial Engineering Club (UP IE Club), UP Advertising Core (UP AdCore), Industrial Engineering Student Committee (IESC).</li>
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0;
+}
 
-                            </ul>
-                            <h3>Assumption College, Antipolo.</h3>
+.top-container {
+    background-color: #FAF3F3;
+    position: relative;
+    justify-content: center;
+    padding: 1em 1em 0;
+    text-align: center;
+}
 
-                            <h4>High School. 2010.</h4>
+.top-container .mountain {
+    width: 50%;
+}
 
-                        </div>
-                    </div>
+.mountain {
+    width: auto;
+}
 
+.web {
+    text-decoration: 0.1em underline #E1E5EA;
+}
 
+.bottom-cloud {
+    position: absolute;
+    left: 1.5625em;
+    width: 20%;
+}
 
-                </section>
-                <div class="contact-me">
-                    <h2>Get In Touch</h2>
-                    <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-                    <p class="contact-message">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-                    <a class="btn" href="mailto:name@email.com">Contact Me</a>
-                </div>
-            </div>
-        </section>
+.cloud1 {
+    position: absolute;
+    right: 1.5625em;
+    top: 1em;
+    width: 20%;
+}
 
+.middle-container .profile {
+    margin: 6.25em auto 6.25em auto;
+    line-height: 2;
+}
 
+.middle-container .profile img {
+    border-radius: 100%;
+    width: 40%;
+}
 
+.skill-row {
+    margin: 6.25em auto 6.25em auto;
+    text-align: left;
+    line-height: 2;
+}
 
-        <div class="bottom-container">
-            <a class="footer-link" href="https://www.facebook.com">Facebook</a>
-            <a class="footer-link" href="https://www.linkedin.com/in/patricia-andrea-monteiro-431534b3/">LinkedIn</a>
-            <a class="footer-link" href="https://github.com/bmpandrada">Instagram</a>
-            <p class="copywrite">© 2021 Bmpa.</p>
-        </div>
-    </div>
+.right {
+    text-align: right;
+}
 
+.grad-row {
+    margin: 6.25em auto 6.25em auto;
+}
 
-</body>
+.grad-row ul {
+    text-align: left;
+    line-height: 2;
+}
 
-</html>
+.computer {
+    width: 25%;
+    float: left;
+    margin: 0 1.875em;
+}
+
+.chillies {
+    width: 25%;
+    float: right;
+}
+
+.grad {
+    width: 50%;
+}
+
+.bottom-container {
+    background-color: #FAF3F3;
+    position: relative;
+    justify-content: center;
+    padding: 4em 1em 0;
+    text-align: center;
+}
+
+.contact-message {
+    margin: 3.75em auto;
+    line-height: 2;
+}
+
+.contact-me {
+    padding: 5em 0;
+}
+
+.btn {
+    background: #DA7F8F;
+    background-image: -webkit-linear-gradient(top, #DA7F8F, #DA7F8F);
+    background-image: -moz-linear-gradient(top, #DA7F8F, #DA7F8F);
+    background-image: -ms-linear-gradient(top, #DA7F8F, #DA7F8F);
+    background-image: -o-linear-gradient(top, #DA7F8F, #DA7F8F);
+    background-image: linear-gradient(to bottom, #DA7F8F, #DA7F8F);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #FAF3F3;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #A7BBC7;
+    background-image: -webkit-linear-gradient(top, #A7BBC7, #A7BBC7);
+    background-image: -moz-linear-gradient(top, #A7BBC7, #A7BBC7);
+    background-image: -ms-linear-gradient(top, #A7BBC7, #A7BBC7);
+    background-image: -o-linear-gradient(top, #A7BBC7, #A7BBC7);
+    background-image: linear-gradient(to bottom, #A7BBC7, #A7BBC7);
+    text-decoration: none;
+}
+
+.copywrite {
+    color: #A7BBC7;
+    font-size: 0.75rem;
+    padding: 1.25em 0;
+    Width: 100%;
+}
+
+@media (max-width:475px) {
+    section {
+        padding: 3% 5%;
+    }
+}
