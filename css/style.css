@@ -7,7 +7,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #11999E;
+    color: #DA7F8F;
     width: 50%;
     margin: 0.625em 1.25em;
 }
@@ -58,7 +58,7 @@ ul {
 }
 
 .container {
-    max-width: 880px;
+    max-width: 1080px;
     margin: 0 auto;
     padding: 0;
 }
@@ -112,6 +112,10 @@ ul {
     line-height: 2;
 }
 
+.right {
+    text-align: right;
+}
+
 .grad-row {
     margin: 6.25em auto 6.25em auto;
 }
@@ -137,7 +141,7 @@ ul {
 }
 
 .bottom-container {
-    background-color: lightblue;
+    background-color: #FAF3F3;
     position: relative;
     justify-content: center;
     padding: 4em 1em 0;
@@ -181,7 +185,7 @@ ul {
 }
 
 .copywrite {
-    color: #EAF6F6;
+    color: #A7BBC7;
     font-size: 0.75rem;
     padding: 1.25em 0;
     Width: 100%;
